@@ -1,0 +1,177 @@
+* {
+  font-family: Helvetica;
+  margin: 0;
+}
+
+#navbar {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+#navbar ul li {
+  margin-left: 1rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.form-control input {
+  padding: 5px;
+  margin-bottom: 0.5rem;
+}
+
+.form-checkbox {
+  flex-direction: row;
+}
+
+.form-checkbox input {
+  margin-right: 10px;
+}
+
+.form-control input {
+  padding: 5px;
+}
+
+/* USERS */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.container .item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  flex: 1 1 29%;
+  max-width: 29%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.item h2,
+p {
+  margin-bottom: 0.8rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions a,
+.actions input {
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #fff;
+  padding: 5px;
+  font-size: 15px;
+  color: black;
+  cursor: pointer;
+}
+
+.actions .details-btn {
+  border-color: #004085;
+  color: #004085;
+
+  transition: 0.3s;
+}
+
+.actions .details-btn:hover {
+  background-color: #004085;
+  border-color: #004085;
+  color: #fff;
+}
+
+.actions .delete-btn {
+  border-color: #721c24;
+  color: #721c24;
+  transition: 0.3s;
+}
+
+.actions .delete-btn:hover {
+  background-color: #721c24;
+  border-color: #721c24;
+  color: #fff;
+}
+
+.actions .edit-btn {
+  border-color: #037a27;
+  color: #037a27;
+  transition: 0.3s;
+}
+
+.actions .edit-btn:hover {
+  background-color: #037a27;
+  border-color: #037a27;
+  color: #fff;
+}
+
+/* ADDRESSES */
+
+.address-container {
+  max-width: 1000px;
+  margin: 1rem auto;
+  padding-top: 1rem;
+  padding-bottom: 200px;
+  border-top: 1px solid #CCC ;
+  
+}
+
+.address-container h2 {
+  margin-bottom: 1rem;
+}
+
+.address-container form {
+  width: 300px;
+}
+
+.address-list {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #CCC;
+  
+}
+
+.address-list div {
+  display: flex;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #DDD;
+}
+
+.address-list form {
+  margin-left: 1rem;
+}
+
+
